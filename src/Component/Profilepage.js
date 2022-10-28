@@ -26,7 +26,6 @@ const Profilepage = () => {
             >
               Twitter Link
             </a>
-
             <a
               href="https://training.zuri.team/"
               target="blank"
@@ -35,7 +34,6 @@ const Profilepage = () => {
             >
               Zuri Team
             </a>
-
             <a
               href="https://books.zuri.team/"
               target="blank"
@@ -44,7 +42,6 @@ const Profilepage = () => {
             >
               Zuri Books
             </a>
-
             <a
               href="https://books.zuri.team/python-for-beginners?ref_id=Oyinda"
               target="blank"
@@ -53,7 +50,6 @@ const Profilepage = () => {
             >
               Phython Books
             </a>
-
             <a
               href="https://background.zuri.team/"
               target="blank"
@@ -62,7 +58,6 @@ const Profilepage = () => {
             >
               Background Checks For Coders
             </a>
-
             <a
               href="https://books.zuri.team/design-rules"
               target="blank"
