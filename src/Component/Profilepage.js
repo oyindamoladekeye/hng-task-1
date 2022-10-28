@@ -18,39 +18,59 @@ const Profilepage = () => {
             </p>
           </div>
           <div className="links">
-            <p className="btn" id="twitterlink">
-              <a href="https://twitter.com/pemisere16" target="blank">
-                Twitter Link
-              </a>
-            </p>
-            <p className="btn" id="btn_zuri">
-              <a href="https://training.zuri.team/" target="blank">
-                Zuri Team
-              </a>
-            </p>
-            <p className="btn" id="books">
-              <a href="https://books.zuri.team/" target="blank">
-                Zuri Books
-              </a>
-            </p>
-            <p className="btn" id="book_python">
-              <a
-                href="https://books.zuri.team/python-for-beginners?ref_id=Oyinda"
-                target="blank"
-              >
-                Phython Books
-              </a>
-            </p>
-            <p className="btn" id="pitch">
-              <a href="https://background.zuri.team/" target="blank">
-                Background Checks For Coders
-              </a>
-            </p>
-            <p className="btn" id="book_design">
-              <a href="https://books.zuri.team/design-rules" target="blank">
-                Design Books
-              </a>
-            </p>
+            <a
+              href="https://twitter.com/pemisere16"
+              target="blank"
+              className="btn"
+              id="twitterlink"
+            >
+              Twitter Link
+            </a>
+
+            <a
+              href="https://training.zuri.team/"
+              target="blank"
+              id="btn__zuri"
+              className="btn"
+            >
+              Zuri Team
+            </a>
+
+            <a
+              href="https://books.zuri.team/"
+              target="blank"
+              className="btn"
+              id="books"
+            >
+              Zuri Books
+            </a>
+
+            <a
+              href="https://books.zuri.team/python-for-beginners?ref_id=Oyinda"
+              target="blank"
+              className="btn"
+              id="book__python"
+            >
+              Phython Books
+            </a>
+
+            <a
+              href="https://background.zuri.team/"
+              target="blank"
+              className="btn"
+              id="pitch"
+            >
+              Background Checks For Coders
+            </a>
+
+            <a
+              href="https://books.zuri.team/design-rules"
+              target="blank"
+              className="btn"
+              id="book__design"
+            >
+              Design Books
+            </a>
           </div>
         </div>
         <div className="social">
