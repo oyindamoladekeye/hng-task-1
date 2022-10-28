@@ -23,7 +23,7 @@ const Profilepage = () => {
                 Twitter Link
               </a>
             </p>
-            <p className="btn" id="btn_zuri">
+            <p className="btn" id="btn__zuri">
               <a href="https://training.zuri.team/" target="blank">
                 Zuri Team
               </a>
@@ -33,7 +33,7 @@ const Profilepage = () => {
                 Zuri Books
               </a>
             </p>
-            <p className="btn" id="book_python">
+            <p className="btn" id="book__python">
               <a
                 href="https://books.zuri.team/python-for-beginners?ref_id=Oyinda"
                 target="blank"
@@ -46,7 +46,7 @@ const Profilepage = () => {
                 Background Checks For Coders
               </a>
             </p>
-            <p className="btn" id="book_design">
+            <p className="btn" id="book__design">
               <a href="https://books.zuri.team/design-rules" target="blank">
                 Design Books
               </a>
