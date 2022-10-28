@@ -30,7 +30,7 @@ const Profilepage = () => {
             </p>
             <p className="btn" id="books">
               <a href="https://books.zuri.team/" target="blank">
-                Zuri Library
+                Zuri Books
               </a>
             </p>
             <p className="btn" id="book_python">
@@ -38,17 +38,17 @@ const Profilepage = () => {
                 href="https://books.zuri.team/python-for-beginners?ref_id=Oyinda"
                 target="blank"
               >
-                Zuri Bookshop
+                Phython Books
               </a>
             </p>
             <p className="btn" id="pitch">
               <a href="https://background.zuri.team/" target="blank">
-                Lets Check Your Coders
+                Background Checks For Coders
               </a>
             </p>
             <p className="btn" id="book_design">
               <a href="https://books.zuri.team/design-rules" target="blank">
-                Grab Your Free Design Book
+                Design Books
               </a>
             </p>
           </div>
