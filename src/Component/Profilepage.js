@@ -48,7 +48,7 @@ const Profilepage = () => {
               className="btn"
               id="book__python"
             >
-              Phython Books
+              Python Books
             </a>
             <a
               href="https://background.zuri.team/"
