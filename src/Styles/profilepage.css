@@ -17,7 +17,7 @@
   align-items: center;
   flex-direction: column;
   /* background-color: dodgerblue; */
-  height: 1158px;
+  height: 1358px;
   width: 1216px;
   margin-top: 64px;
   padding: 0 2.5vw;
@@ -47,7 +47,7 @@
   visibility: hidden;
 }
 .links {
-  height: 576px;
+  height: 676px;
   margin-top: 32px;
   font-style: normal;
   font-weight: 600;

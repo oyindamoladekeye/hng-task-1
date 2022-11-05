@@ -1,10 +1,15 @@
 import "./App.css";
-import Profilepage from "./Component/Profilepage";
+import Profilepage from "./Pages/Profilepage";
+import {Route, Routes} from "react-router-dom";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
     <div className="container">
-      <Profilepage />
+        <Routes>
+            <Route path = "/hng-task-1" element={<Profilepage />} />
+            <Route path = "/contact" element={<Contact />} />
+        </Routes>
     </div>
   );
 }

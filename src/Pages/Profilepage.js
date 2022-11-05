@@ -3,6 +3,8 @@ import slack from "../images/slack.jpg";
 import github from "../images/github.jpg";
 import ZuriLogo from "../images/zuri-logo.jpg";
 import IngressiveLogo from "../images/ingressive-logo.jpg";
+import Footer from "../Component/Footer";
+import {Link} from "react-router-dom";
 const Profilepage = () => {
   return (
     <div className="profilecontainer">
@@ -66,6 +68,7 @@ const Profilepage = () => {
             >
               Design Books
             </a>
+            <Link to= "/contact"  className="btn" id="contact">Contact me</Link>
           </div>
         </div>
         <div className="social">
@@ -76,11 +79,7 @@ const Profilepage = () => {
             <img src={github} alt="" />
           </a>
         </div>
-        <footer className="footer">
-          <img src={ZuriLogo} alt="" className="zuri" />
-          <p className="hng9">HNG Internship 9 Frontend Task</p>
-          <img src={IngressiveLogo} alt="" className="g14" />
-        </footer>
+        <Footer />
       </div>
     </div>
   );
