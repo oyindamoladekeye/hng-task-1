@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     text-align: left;
+    flex-direction: column;
+    align-items: center
 }
 .contact-form{
     height:474px;
@@ -11,17 +13,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex-wrap:wrap
 }
 .center{
-    width:720px;
-    margin:156px 360px 188px
+    width:50vw;
+    margin:188px 360px 156px
 }
 .names{
     display: flex;
     justify-content:space-between;
 }
 .contact-form-fname , .contact-form-lname{
-    width:348px;
+    width:24vw;
     display: flex;
     flex-direction: column;
 }
@@ -44,5 +47,13 @@ textarea{
 }
 .contact-form-check{
     display: flex;
-    align-content: center;
+    align-items: center;
+    gap: 12px;
+}
+#btn__submit{
+    height:42px;
+    border: 1px solid #1570EF;
+    border-radius:8px;
+    background-color:#1570EF;
+    color:white
 }

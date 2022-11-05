@@ -33,7 +33,7 @@ function Contact (){
                     <button id="btn__submit">Send Message</button>
                 </div>
             </div>
-            {/*<Footer />*/}
+            <Footer />
         </div>
     )
 }
